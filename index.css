@@ -1,0 +1,41 @@
+html,body {
+    height:100%;
+}
+
+body {
+    margin:0;
+    padding-top:20px;
+    box-sizing:border-box;
+    background-color:#fafafa;
+    font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size:14px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+p {
+    margin:0;
+}
+
+a,a:visited {
+    color:black;
+}
+
+.icon {
+    vertical-align:middle;
+}
+
+.tip {
+    text-align:center;
+}
+
+.tip .icon__telegram {
+    padding-right:2px;
+}
+
+@media screen and (max-width:600px) {
+    #wrap{
+        width:100%;
+    }
+}
